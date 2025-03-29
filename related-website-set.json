@@ -1,3 +1,10 @@
 related-website-set.json
-
 https://chandiefae.github.io/rws-config/related-website-set.json
+{
+  "primary": "brandxfly.com",
+  "associatedSites": [
+    "fly-brandx.com",
+    "drive-brandx.com"
+  ],
+  "comment": "Related Website Set for BrandX travel services"
+}
