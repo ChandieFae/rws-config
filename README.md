@@ -1,2 +1,2 @@
 # rws-config
-RWS for JSON
+RWS for JSON StorageAccessApi
