@@ -1,4 +1,4 @@
-related-website-set.JSON
+"sets": [
 {
   "owner": "https://www.tcappliancehvac.com",
   "primary": "https://www.tcappliancehvac.com",
@@ -18,5 +18,6 @@ related-website-set.JSON
 
       "serviceSites": ["https://www.tcappliancehvac.com"],["https://www.tcappliancerepairman.com"
 
+}
 {
 
