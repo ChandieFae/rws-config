@@ -6,4 +6,4 @@ It supports the transition away from third-party cookies by allowing limited and
 
 This file is typically hosted on a public domain, submitted to Google for review, and used by Chrome to allow certain storage-related exceptions across listed domains.
 
-**https://chandiefae.github.io/rws-config/related-website-set.json
+
