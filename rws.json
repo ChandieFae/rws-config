@@ -1,20 +1,56 @@
 {
-  "owner": "https://www.tcappliancehvac.com",
-  "primary": "https://www.tcappliancehvac.com",
-  "associatedSites": [
-    "https://www.tcappliancerepairman.com"
-  ],
-  "service": [
-    
-  ],
-  "comment": "Related Website Set for T&C Appliance & HVAC Repair supports Google's third-party cookie phaseout by declaring which domains are owned and related, allowing them to maintain shared cookie functionality where needed"
-}
-{
   "sets": [
     {
-      "contact": "https://www.tcappliancehvac@gmail.com",
+      "contact": "tcappliancehvac@gmail.com",
       "primary": "https://www.tcappliancehvac.com",
-
-      "associatedSites": ["https://www.tcappliancehvac.com", "https://www.tcappliancerepairman.com"]
-
-      "serviceSites": ["https://www.tcappliancehvac.com"],["https://www.tcappliancerepairman.com"
+      "associatedSites": [
+        "https://www.tcappliancerepairman.com"
+      ],
+      "serviceSites": [
+        "https://www.tcappliancehvac.com",
+        "https://www.tcappliancerepairman.com"
+      ]
+    }
+  ],
+  "aiAgents": [
+    {
+      "name": "Claude Sonnet 4.5",
+      "platform": "anthropic",
+      "model": "claude-sonnet-4.5",
+      "purpose": "Development, code, and GitHub operations",
+      "connectedSites": [
+        "https://www.tcappliancehvac.com",
+        "https://www.tcappliancerepairman.com"
+      ],
+      "responsibilities": [
+        "Repository management",
+        "Code generation",
+        "File operations",
+        "Technical documentation"
+      ],
+      "status": "active"
+    },
+    {
+      "name": "Gemini Genius",
+      "platform": "genius.io",
+      "model": "gemini",
+      "purpose": "Business operations and data aggregation",
+      "connectedSites": [
+        "https://www.tcappliancehvac.com",
+        "https://www.tcappliancerepairman.com"
+      ],
+      "responsibilities": [
+        "Customer data processing",
+        "Business analytics",
+        "Service coordination",
+        "Data routing"
+      ],
+      "status": "active"
+    }
+  ],
+  "dataIntegration": {
+    "architecture": "dual-agent",
+    "preventCollapse": true,
+    "comment": "Claude and Gemini work together - Claude for code/GitHub, Gemini for business data"
+  }
+}
